@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="product">
+    <img src="{{ Product.image.url }}"/>
+<p>{{Product.title}}</p>
+<p>{{Product.price}} тг</p>
+    <p>{{Product.rubric}}</p>
+
+</div>
+</body>
+</html>
