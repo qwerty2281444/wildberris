@@ -1,3 +1,134 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+
+
+  .header {
+    background-color: #92278f;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .header-icons a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+
+  .navbar-custom {
+    background-color: #9c27b0;
+  }
+  .navbar-brand, .nav-link, .form-control {
+    color: white !important;
+  }
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .form-control {
+    background-color: #a942bc;
+    border: none;
+  }
+  .form-control:focus {
+    background-color: #a942bc;
+    color: white;
+    box-shadow: none;
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card-price {
+    color: #9c27b0;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .carousel-inner img {
+    height: 160px;
+    object-fit: cover;
+    position: relative;
+    
+  }
+
+.car {
+  position: relative;
+  top: 70px;
 }
+
+
+img {
+  width: 20px;
+  height: 400px;
+}
+
+
+
+.carousel-image {
+  height: 50px; 
+  object-fit: cover; 
+}
+
+
+.navbar-custom {
+  background-color: #9c27b0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+
+
+.tovry {
+  position: relative;
+  top: 70px;
+}
+
+
+
